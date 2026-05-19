@@ -81,7 +81,7 @@ dependencies {
 **Option B: Using JitPack** [![](https://jitpack.io/v/farsroidx/ComposeElasticOverscroll.svg)](https://jitpack.io/#farsroidx/ComposeElasticOverscroll)
 ```kotlin
 dependencies {
-    implementation("com.github.farsroidx:ElasticOverscroll:1.0.0")
+    implementation("com.github.farsroidx:ComposeElasticOverscroll:1.0.0")
 }
 ```
 
