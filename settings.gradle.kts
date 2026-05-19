@@ -2,9 +2,6 @@ pluginManagement {
     repositories {
         mavenLocal()
         maven(url = "https://maven.myket.ir")
-        maven(url = "https://archive.ito.gov.ir/gradle/maven-central")
-        maven(url = "https://mirror-maven.runflare.com/maven2")
-        maven(url = "https://gradle.jamko.ir")
         gradlePluginPortal()
         mavenCentral()
         google()
@@ -21,11 +18,9 @@ dependencyResolutionManagement {
     repositories {
         mavenLocal()
         maven(url = "https://maven.myket.ir")
-        maven(url = "https://archive.ito.gov.ir/gradle/maven-central")
-        maven(url = "https://mirror-maven.runflare.com/maven2")
-        maven(url = "https://gradle.jamko.ir")
         mavenCentral()
         google()
+        maven(url = "https://jitpack.io")
     }
 }
 
