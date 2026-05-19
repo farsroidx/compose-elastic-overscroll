@@ -15,11 +15,7 @@ android {
 
     namespace = "ir.farsroidx.overscroll"
 
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk { version = release(37) }
 
     defaultConfig {
         minSdk = 23
@@ -73,7 +69,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
 
                 groupId    = "ir.farsroidx"
-                artifactId = "overscroll"
+                artifactId = "compose-overscroll"
                 version    = "1.0.0"
 
                 from( components["release"] )
@@ -83,22 +79,23 @@ afterEvaluate {
 
     signing {
 
+        isRequired = gradle.taskGraph.hasTask("publish")
+
         val filePath = findLocalProperty(key = "signing.filePath")
         val password = findLocalProperty(key = "signing.password")
 
-        if (filePath.isNullOrBlank()) {
-            throw Exception("signing.filePath is missing from local.properties.")
-        }
+        if (!filePath.isNullOrBlank() && !password.isNullOrBlank()) {
 
-        val signingFile = project.file(filePath)
+            val signingFile = project.file(filePath)
 
-        if (!signingFile.exists() || password.isNullOrBlank()) {
-            throw Exception("signing.filePath or signing.password is missing from local.properties.")
-        }
+            if (signingFile.exists()) {
 
-        this.useInMemoryPgpKeys(signingFile.readText(), password)
+                useInMemoryPgpKeys(signingFile.readText(), password)
 
-        this.sign(publishing.publications)
+                sign(publishing.publications)
+            }
+
+        } else logger.lifecycle("Signing skipped (no signing config found)")
     }
 }
 
