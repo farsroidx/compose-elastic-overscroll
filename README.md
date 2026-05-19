@@ -71,10 +71,10 @@ dependencyResolutionManagement {
 
 Then, add the dependency to your app-level `build.gradle.kts`:
 
-**Option A: Using Maven Central (`Recommended`)** [![Maven Central](https://img.shields.io/maven-central/v/ir.farsroidx/overscroll.svg)](https://mvnrepository.com/artifact/ir.farsroidx/overscroll)
+**Option A: Using Maven Central (`Recommended`)** [![Maven Central](https://img.shields.io/maven-central/v/ir.farsroidx/compose-overscroll.svg)](https://mvnrepository.com/artifact/ir.farsroidx/compose-overscroll)
 ```kotlin
 dependencies {
-    implementation("ir.farsroidx:overscroll:🔝LATEST_VERSION🔝")
+    implementation("ir.farsroidx:compose-overscroll:🔝LATEST_VERSION🔝")
 }
 ```
 
