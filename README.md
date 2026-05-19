@@ -74,14 +74,14 @@ Then, add the dependency to your app-level `build.gradle.kts`:
 **Option A: Using Maven Central (`Recommended`)** [![Maven Central](https://img.shields.io/maven-central/v/ir.farsroidx/overscroll.svg)](https://mvnrepository.com/artifact/ir.farsroidx/overscroll)
 ```kotlin
 dependencies {
-    implementation("ir.farsroidx:overscroll:1.0.0")
+    implementation("ir.farsroidx:overscroll:🔝LATEST_VERSION🔝")
 }
 ```
 
 **Option B: Using JitPack** [![](https://jitpack.io/v/farsroidx/ComposeElasticOverscroll.svg)](https://jitpack.io/#farsroidx/ComposeElasticOverscroll)
 ```kotlin
 dependencies {
-    implementation("com.github.farsroidx:ComposeElasticOverscroll:1.0.0")
+    implementation("com.github.farsroidx:ComposeElasticOverscroll:🔝LATEST_VERSION🔝")
 }
 ```
 
