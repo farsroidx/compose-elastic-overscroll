@@ -1,13 +1,19 @@
 <div align="center">
 
-<div align="center">
-    <b>Due to the Iran-US war and the lack of access to some international services, we are currently unable to publish the version to the jitPack and mavenCentral repositories.</b>
-    <br>
-    <br>
-    The versions will be published in the two repositories as soon as possible.
-</div>
+[//]: # (<div align="center">)
 
----
+[//]: # (    <b>Due to the Iran-US war and the lack of access to some international services, we are currently unable to publish the version to the jitPack and mavenCentral repositories.</b>)
+
+[//]: # (    <br>)
+
+[//]: # (    <br>)
+
+[//]: # (    The versions will be published in the two repositories as soon as possible.)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (---)
 
 <img src="files/cover.png" alt="ElasticOverscroll Banner" width="100%">
 
@@ -20,11 +26,11 @@ Built natively with `Modifier.Node` for maximum 60fps performance and zero unnec
 [![Compose](https://img.shields.io/badge/Compose-1.0.0%2B-blue.svg)]()
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4c0aaa44a2124bafa2666a06d7799f46)](https://app.codacy.com/gh/farsroidx/andromeda/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Last Commit](https://img.shields.io/github/last-commit/farsroidx/ElasticOverscroll)
+![Last Commit](https://img.shields.io/github/last-commit/farsroidx/ComposeElasticOverscroll)
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red.svg?style=for-the-badge&logo=heart&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 
 <div align="center">
 Made with ❤️ for the Android Community.
