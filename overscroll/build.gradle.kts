@@ -23,7 +23,7 @@ android {
         consumerProguardFiles("consumer-rules.pro")
     }
 
-    buildTypes { release { isMinifyEnabled = true } }
+    buildTypes { release { isMinifyEnabled = false } }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -73,6 +73,45 @@ afterEvaluate {
                 version    = "1.0.0"
 
                 from( components["release"] )
+
+                pom {
+
+                    this.name.set("Compose Overscroll")
+
+                    this.description.set("A smooth elastic overscroll effect for Jetpack Compose lists, scroll and lazy layouts.")
+
+                    this.url.set("https://github.com/farsroidx/ComposeElasticOverscroll")
+
+                    this.licenses {
+
+                        this.license {
+
+                            this.name.set("The Apache Software License, Version 2.0")
+
+                            this.url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+
+                        }
+                    }
+
+                    this.developers {
+
+                        this.developer {
+
+                            this.id.set("farsroidx")
+
+                            this.name.set("Mohammad ali Riazati")
+
+                            this.email.set("farsroidx@gmail.com")
+
+                        }
+                    }
+
+                    this.scm {
+                        this.url.set("https://github.com/farsroidx/ComposeElasticOverscroll")
+                        this.connection.set("scm:git:git://github.com/farsroidx/ComposeElasticOverscroll.git")
+                        this.developerConnection.set("scm:git:ssh://github.com/farsroidx/ComposeElasticOverscroll.git")
+                    }
+                }
             }
         }
     }
