@@ -24,7 +24,7 @@ Built natively with `Modifier.Node` for maximum 60fps performance and zero unnec
 
 ![Min SDK](https://img.shields.io/badge/minSdk-23%2B-orange.svg?style=flat)
 [![Compose](https://img.shields.io/badge/Compose-1.0.0%2B-blue.svg)]()
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4c0aaa44a2124bafa2666a06d7799f46)](https://app.codacy.com/gh/farsroidx/andromeda/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/15a87ec5407849ab9de7a4b5021abbf8)](https://app.codacy.com/gh/farsroidx/ComposeElasticOverscroll/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Last Commit](https://img.shields.io/github/last-commit/farsroidx/ComposeElasticOverscroll)
 
